@@ -31,5 +31,3 @@ def create_database():
 
         if my_db and my_db.is_connected():
             my_db.close()
-if __name__ == "__main__":
-    create_database()
